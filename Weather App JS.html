@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External stylesheet link for styling -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Adjust the path to your style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation buttons -->
+        <b></b>
+        <span class="b1"></span>
+        <span class="b2"></span>
+
+        <!-- Search bar for location input -->
+        <div class="search-bar">
+            <i class="bx bxs-map"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="bx bx-search"></button>
+        </div>
+        <h4>Muhammmad Ishar</h4> 
+        <!-- Placeholder for city name -->
+        <p class="city-hide">city-hide</p>
+
+        <!-- Weather box with current weather information -->
+        <div class="weather-box">
+            <!-- <h4>Muhammmad Ishar</h4> -->
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <!-- Weather image -->
+                        <img src="https://www.cleveland.com/resizer/VLM86ysYD4hSeFg-E_df5r6KEMg=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HOQV6AJ2SBD4FKY323KCANK7UQ.png"
+                            alt="sun">
+                        <!-- Temperature -->
+                        <p class="temperature">0<span>°C</span></p>
+                        <!-- Weather description -->
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather details section with humidity and wind speed -->
+        <div class="weather-details">
+            <!-- Humidity information -->
+            <div class="humidity">
+                <i class="bx bx-water"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <!-- Wind speed information -->
+            <div class="wind">
+                <i class="bx bx-wind"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Not found section for displaying errors -->
+        <div class="not-found">
+            <div class="box">
+                <!-- Image for not found  -->
+                <img src="https://previews.123rf.com/images/asiln/asiln1703/asiln170300007/77143461-404-not-found-stamp.jpg"
+                    alt="not found">
+                <!-- Error message -->
+                <p>Oop Location NOT Found!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adjust the path to your javascript.js file -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
